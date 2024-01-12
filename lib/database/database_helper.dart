@@ -32,7 +32,7 @@ class DatabaseHelper {
   }
 
 // IdeaInfo 데이터 삽입 (insert)
-  Future<int> insertIdeaInfo() async {
+  Future<int> insertIdeaInfo(IdeaInfo idea) async {
     return await database.insert('tb_idea', idea.toMap());
   }
 

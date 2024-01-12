@@ -20,7 +20,7 @@ class SplashScreen extends StatelessWidget {
           Image.asset('assets/songcoding.png', width: 180, height: 180),
           Container(
               margin: const EdgeInsets.only(top: 30),
-              child: const Text('Business Card',
+              child: const Text('Note App',
                   style: TextStyle(
                     fontSize: 32,
                     fontWeight: FontWeight.bold,
